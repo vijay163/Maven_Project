@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49323" started-at="2020-01-02T14:22:43Z" finished-at="2020-01-02T14:23:32Z">
+    <groups>
+    </groups>
+    <test name="TestChrome" duration-ms="30941" started-at="2020-01-02T14:22:43Z" finished-at="2020-01-02T14:23:14Z">
+      <class name="Com.Actitime.Scripts.TestLoginPage1">
+        <test-method status="PASS" signature="browser(java.lang.String)[pri:0, instance:Com.Actitime.Scripts.TestLoginPage1@396a51ab]" name="browser" is-config="true" duration-ms="10750" started-at="2020-01-02T19:52:43Z" finished-at="2020-01-02T19:52:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="openApp()[pri:0, instance:Com.Actitime.Scripts.TestLoginPage1@396a51ab]" name="openApp" is-config="true" duration-ms="5780" started-at="2020-01-02T19:52:54Z" finished-at="2020-01-02T19:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:Com.Actitime.Scripts.TestLoginPage1@396a51ab]" name="validLogin" duration-ms="13315" started-at="2020-01-02T19:53:00Z" finished-at="2020-01-02T19:53:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="closeAppBrower(org.testng.ITestResult)[pri:0, instance:Com.Actitime.Scripts.TestLoginPage1@396a51ab]" name="closeAppBrower" is-config="true" duration-ms="1071" started-at="2020-01-02T19:53:13Z" finished-at="2020-01-02T19:53:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=TestLoginPage1.validLogin()[pri:0, instance:Com.Actitime.Scripts.TestLoginPage1@396a51ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAppBrower -->
+      </class> <!-- Com.Actitime.Scripts.TestLoginPage1 -->
+    </test> <!-- TestChrome -->
+    <test name="TestFireFox" duration-ms="49323" started-at="2020-01-02T14:22:43Z" finished-at="2020-01-02T14:23:32Z">
+      <class name="Com.Actitime.Scripts.TestLoginPage1">
+        <test-method status="PASS" signature="browser(java.lang.String)[pri:0, instance:Com.Actitime.Scripts.TestLoginPage1@457e2f02]" name="browser" is-config="true" duration-ms="33213" started-at="2020-01-02T19:52:43Z" finished-at="2020-01-02T19:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="openApp()[pri:0, instance:Com.Actitime.Scripts.TestLoginPage1@457e2f02]" name="openApp" is-config="true" duration-ms="4888" started-at="2020-01-02T19:53:16Z" finished-at="2020-01-02T19:53:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:Com.Actitime.Scripts.TestLoginPage1@457e2f02]" name="validLogin" duration-ms="4057" started-at="2020-01-02T19:53:21Z" finished-at="2020-01-02T19:53:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="closeAppBrower(org.testng.ITestResult)[pri:0, instance:Com.Actitime.Scripts.TestLoginPage1@457e2f02]" name="closeAppBrower" is-config="true" duration-ms="7142" started-at="2020-01-02T19:53:25Z" finished-at="2020-01-02T19:53:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=TestLoginPage1.validLogin()[pri:0, instance:Com.Actitime.Scripts.TestLoginPage1@457e2f02] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAppBrower -->
+      </class> <!-- Com.Actitime.Scripts.TestLoginPage1 -->
+    </test> <!-- TestFireFox -->
+  </suite> <!-- Suite -->
+</testng-results>

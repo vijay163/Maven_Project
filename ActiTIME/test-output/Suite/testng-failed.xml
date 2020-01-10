@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <test name="TestChrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Com.Actitime.Scripts.TestLoginPage1">
+        <methods>
+          <include name="closeAppBrower"/>
+          <include name="closeAppBrower"/>
+          <include name="openApp"/>
+          <include name="openApp"/>
+          <include name="validLogin"/>
+          <include name="browser"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- Com.Actitime.Scripts.TestLoginPage1 -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+  <test name="TestFireFox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Com.Actitime.Scripts.TestLoginPage1">
+        <methods>
+          <include name="closeAppBrower"/>
+          <include name="closeAppBrower"/>
+          <include name="openApp"/>
+          <include name="openApp"/>
+          <include name="validLogin"/>
+          <include name="browser"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- Com.Actitime.Scripts.TestLoginPage1 -->
+    </classes>
+  </test> <!-- TestFireFox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
