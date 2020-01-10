@@ -1,0 +1,13 @@
+
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.scripts.TestInvalidLoginPage"/>
+      <class name="com.scripts.TestLoginPage"/>
+      <class name="com.scripts.TestCreateCustPage"/>
+      <class name="com.scripts.TestCreateProject"/>
+      <class name="com.scripts.TestCreateTask"/>
+    </classes>
+  </test>
+</suite> 

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44768" started-at="2020-01-10T05:29:23Z" finished-at="2020-01-10T05:30:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="44768" started-at="2020-01-10T05:29:23Z" finished-at="2020-01-10T05:30:08Z">
+      <class name="com.scripts.TestCreateTask">
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:com.scripts.TestCreateTask@523884b2]" name="setDriver" is-config="true" duration-ms="9947" started-at="2020-01-10T10:59:23Z" finished-at="2020-01-10T10:59:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.scripts.TestCreateTask@523884b2]" name="openApp" is-config="true" duration-ms="5768" started-at="2020-01-10T10:59:33Z" finished-at="2020-01-10T10:59:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="createTask()[pri:0, instance:com.scripts.TestCreateTask@523884b2]" name="createTask" duration-ms="29024" started-at="2020-01-10T10:59:39Z" finished-at="2020-01-10T11:00:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTask -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.scripts.TestCreateTask@523884b2]" name="closeApp" is-config="true" duration-ms="0" started-at="2020-01-10T11:00:08Z" finished-at="2020-01-10T11:00:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createTask status=SUCCESS method=TestCreateTask.createTask()[pri:0, instance:com.scripts.TestCreateTask@523884b2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.scripts.TestCreateTask -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

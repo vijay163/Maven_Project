@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.scripts.TestCreateCustPage">
+        <methods>
+          <include name="openApp"/>
+          <include name="setDriver"/>
+          <include name="closeApp"/>
+          <include name="createNewCust"/>
+        </methods>
+      </class> <!-- com.scripts.TestCreateCustPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
